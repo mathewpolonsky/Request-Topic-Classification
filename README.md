@@ -44,7 +44,7 @@
 [`Copy_of_training_xlm_base.ipynb`](Copy_of_training_xlm_base.ipynb) — Обучение `xlm-roberta-base` и `ruBert-base` на данных с исправленными ошибками
 
 ---
-#### Запуск бота в dev-режиме
+## Запуск бота в dev-режиме
 
 Перейти в директорию с ботом
 ```
