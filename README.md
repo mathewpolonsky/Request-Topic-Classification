@@ -7,7 +7,7 @@
 Мы автоматизируем процесс обработки неформальных обращений граждан, валидируем обращения на предмет наличия в них конкретных жалоб.
 К каждому обращению мы выделяем тему, группу тем и исполнителя.
 
-Для классификации обращений по темам используется `ruBert-base`. Выделение именованных сущностей для определения исполнителя и для классификации тем происходит с помощью Natasha. Были обучены 2 модели `ruber-tiny2`для определения исполнителя и валидации. Также использвуется `UrukHan/t5-russian-spell` для исправления ошибок в текстах датасета.
+Для классификации обращений по темам используется `ruBert-base`. Выделение именованных сущностей для определения исполнителя и для классификации тем происходит с помощью Natasha. Были обучены 2 модели `ruber-tiny2`для определения исполнителя и валидации. Также используется `UrukHan/t5-russian-spell` для исправления ошибок в текстах датасета.
 
 Интерфейс решения представлен в виде чат-бота в Telegram.
 
@@ -53,6 +53,10 @@ pip install -r requirements.txt
 [`submit_rubert_base_ner.ipynb`](submit_rubert_base_ner.ipynb) — получение лучшего сабмита
 
 [`toxicity_rubert_tiny.ipynb`](toxicity_rubert_tiny.ipynb) — обучение rubert_tiny2 на текстах и инцидента и [Russian Language Toxic Comments](https://www.kaggle.com/datasets/blackmoon/russian-language-toxic-comments) для определения, валидно ли обращение
+
+[`training_rubert_tiny_ner.ipynb`](training_rubert_tiny_ner.ipynb) — обучение rubert_tiny2 на данных с исправленными ошибками и именованными сущностями
+
+[`training_rubert_tiny.ipynb`](training_rubert_base_ner.ipynb) — обучение rubert_tiny2 на данных с исправленными ошибками
 
 [`processing_citizens_appeals_tg_bot/`](processing_citizens_appeals_tg_bot/) — директория с ботом
 
