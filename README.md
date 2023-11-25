@@ -46,15 +46,15 @@ pip install -r requirements.txt
 ---
 ## Файлы 
 
-[`PromoBotSolutionAPI.ipynb `](PromoBotSolutionAPI.ipynb) — хостинг API на Colab (работает на CPU)
-
 [`training_rubert_base_ner.ipynb`](training_rubert_base_ner.ipynb) — обучение ruBert-base на данных с исправленными ошибками и именованными сущностями (лучшая модель на классификацию тем)
+
+[`PromoBotSolutionAPI.ipynb `](PromoBotSolutionAPI.ipynb) — хостинг API на Colab (работает на CPU)
 
 [`submit_rubert_base_ner.ipynb`](submit_rubert_base_ner.ipynb) — получение лучшего сабмита
 
-[`processing_citizens_appeals_tg_bot/`](processing_citizens_appeals_tg_bot/) — директория с ботом
-
 [`toxicity_rubert_tiny.ipynb`](toxicity_rubert_tiny.ipynb) — обучение rubert_tiny2 на текстах и инцидента и [Russian Language Toxic Comments](https://www.kaggle.com/datasets/blackmoon/russian-language-toxic-comments) для определения, валидно ли обращение
+
+[`processing_citizens_appeals_tg_bot/`](processing_citizens_appeals_tg_bot/) — директория с ботом
 
 ---
 [`id2label.json`](id2label.json), [`label2id.json`](label2id.json) — Конвертация классов в числовое представление и наоборот
