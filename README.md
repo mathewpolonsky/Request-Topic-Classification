@@ -42,10 +42,18 @@ pip install -r requirements.txt
 Запустить файл `run.py`
 
 
-## Файлы
+## Файлы 
 
 [`PromoBotSolutionAPI.ipynb `](PromoBotSolutionAPI.ipynb) — хостинг API на Colab (работает на CPU)
 
 [`submit_rubert_base_ner.ipynb`](submit_rubert_base_ner.ipynb) — получение лучшего сабмита
 
 [`processing_citizens_appeals_tg_bot/`](processing_citizens_appeals_tg_bot/) — директория с ботом 
+
+[`id2label.json`](id2label.json), [`label2id.json`](label2id.json) — Конвертация классов в числовое представление и наоборот
+
+[`topic2big_topic.json`](topic2big_topic.json) — Сопоставление тем с групой тем
+
+[`Copy_of_training_xlm_base.ipynb`](Copy_of_training_xlm_base.ipynb) — Обучение xlm-roberta-base и roBert-base на данных с исправленными ошибками
+
+[`main.ipynb`](main.ipynb) — Анализ и предобработка данных + парсер вк для провреки на валидность
