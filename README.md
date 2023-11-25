@@ -57,3 +57,5 @@ pip install -r requirements.txt
 [`Copy_of_training_xlm_base.ipynb`](Copy_of_training_xlm_base.ipynb) — Обучение xlm-roberta-base и roBert-base на данных с исправленными ошибками
 
 [`main.ipynb`](main.ipynb) — Анализ и предобработка данных, а также незаконченный парсер VK, который планировался для полность. автоматизированного решения
+
+[toxicity_rubert_tiny.ipynb](toxicity_rubert_tiny.ipynb) — обучение rubert_tiny2 на текстах и инцидента и [Russian Language Toxic Comments](https://www.kaggle.com/datasets/blackmoon/russian-language-toxic-comments) для определения, валидно ли обращение
