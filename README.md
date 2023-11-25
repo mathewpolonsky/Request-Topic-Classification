@@ -52,6 +52,8 @@ pip install -r requirements.txt
 
 [`processing_citizens_appeals_tg_bot/`](processing_citizens_appeals_tg_bot/) — директория с ботом
 
+[`toxicity_rubert_tiny.ipynb`](toxicity_rubert_tiny.ipynb) — обучение rubert_tiny2 на текстах и инцидента и [Russian Language Toxic Comments](https://www.kaggle.com/datasets/blackmoon/russian-language-toxic-comments) для определения, валидно ли обращение
+
 [`id2label.json`](id2label.json), [`label2id.json`](label2id.json) — Конвертация классов в числовое представление и наоборот
 
 [`topic2big_topic.json`](topic2big_topic.json) — Сопоставление тем с групой тем
@@ -60,4 +62,3 @@ pip install -r requirements.txt
 
 [`main.ipynb`](main.ipynb) — Анализ и предобработка данных, а также незаконченный парсер VK, который планировался для полностью автоматизированного решения
 
-[`toxicity_rubert_tiny.ipynb`](toxicity_rubert_tiny.ipynb) — обучение rubert_tiny2 на текстах и инцидента и [Russian Language Toxic Comments](https://www.kaggle.com/datasets/blackmoon/russian-language-toxic-comments) для определения, валидно ли обращение
