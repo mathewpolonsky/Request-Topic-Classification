@@ -56,4 +56,4 @@ pip install -r requirements.txt
 
 [`Copy_of_training_xlm_base.ipynb`](Copy_of_training_xlm_base.ipynb) — Обучение xlm-roberta-base и roBert-base на данных с исправленными ошибками
 
-[`main.ipynb`](main.ipynb) — Анализ и предобработка данных + парсер вк для провреки на валидность
+[`main.ipynb`](main.ipynb) — Анализ и предобработка данных, а также незаконченный парсер VK, который планировался для полность. автоматизированного решения
