@@ -19,7 +19,7 @@
 ---
 ## Файлы 
 
-[`training_rubert_base_ner.ipynb`](training_rubert_base_ner.ipynb) — обучение `ruBert-base` на данных с исправленными ошибками и именованными сущностями (лучшая модель на классификацию тем). Обучение на 3 эпохах + 2 с весами классов
+[`training_rubert_base_ner.ipynb`](training_rubert_base_ner.ipynb) — обучение `ruBert-base` на данных с исправленными ошибками и именованными сущностями (лучшая модель на классификацию тем)
 
 [`PromoBotSolutionAPI.ipynb `](PromoBotSolutionAPI.ipynb) — хостинг API на Colab (работает на CPU)
 
