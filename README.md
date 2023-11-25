@@ -19,7 +19,9 @@
 `Python`, `Transformers`, `PyTorch`, `Natasha`, `aiogram`.
 
 ## [Ссылка на бота](https://t.me/processing_appeals_bot)
-Запуск бота в dev-режиме
+---
+#### Запуск бота в dev-режиме
+
 Перейти в директорию с ботом
 ```
 cd processing_citizens_appeals_tg_bot/
@@ -41,7 +43,7 @@ pip install -r requirements.txt
 ```
 Запустить файл `run.py`
 
-
+---
 ## Файлы 
 
 [`PromoBotSolutionAPI.ipynb `](PromoBotSolutionAPI.ipynb) — хостинг API на Colab (работает на CPU)
@@ -54,10 +56,12 @@ pip install -r requirements.txt
 
 [`toxicity_rubert_tiny.ipynb`](toxicity_rubert_tiny.ipynb) — обучение rubert_tiny2 на текстах и инцидента и [Russian Language Toxic Comments](https://www.kaggle.com/datasets/blackmoon/russian-language-toxic-comments) для определения, валидно ли обращение
 
+---
 [`id2label.json`](id2label.json), [`label2id.json`](label2id.json) — Конвертация классов в числовое представление и наоборот
 
 [`topic2big_topic.json`](topic2big_topic.json) — Сопоставление тем с групой тем
 
+---
 [`Copy_of_training_xlm_base.ipynb`](Copy_of_training_xlm_base.ipynb) — Обучение xlm-roberta-base и ruBert-base на данных с исправленными ошибками
 
 [`main.ipynb`](main.ipynb) — Анализ и предобработка данных, а также незаконченный парсер VK, который планировался для полностью автоматизированного решения
