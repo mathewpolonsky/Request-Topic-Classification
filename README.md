@@ -39,9 +39,9 @@
 [`topic2big_topic.json`](topic2big_topic.json) — Сопоставление тем с групой тем
 
 ---
-[`main.ipynb`](main.ipynb) — Анализ и предобработка данных, получение [`topic2big_topic.json`](topic2big_topic.json), а также незаконченный парсер VK, который планировался для полностью автоматизированного решения
+[`preprocess_and_parser.ipynb`](preprocess_and_parser.ipynb) — Анализ и предобработка данных, получение [`topic2big_topic.json`](topic2big_topic.json), а также незаконченный парсер VK, который планировался для полностью автоматизированного решения
 
-[`Copy_of_training_xlm_base.ipynb`](Copy_of_training_xlm_base.ipynb) — Обучение `xlm-roberta-base` и `ruBert-base` на данных с исправленными ошибками
+[`training_xlm_base_and_rubert.ipynb`](training_xlm_base_and_rubert.ipynb) — Обучение `xlm-roberta-base` и `ruBert-base` на данных с исправленными ошибками
 
 ---
 ## Запуск бота в dev-режиме
